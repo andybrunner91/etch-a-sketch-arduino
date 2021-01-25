@@ -1,11 +1,12 @@
 /*
-  Stepper Motor Demonstration 1
-  Stepper-Demo1.ino
-  Demonstrates 28BYJ-48 Unipolar Stepper with ULN2003 Driver
-  Uses Arduino Stepper Library
+    Prints works on an etch a sketch
+    Made for Mark Rober's Monthly Class
+    A lot of this was written late at night and in a cruch, so it's a bit rough,
+    but it's functional.
 
-  DroneBot Workshop 2018
-  https://dronebotworkshop.com
+    The base of this is DroneBot Workshop's fantastic stepper motor tutorial:
+    https://dronebotworkshop.com/stepper-motors-with-arduino/
+
 */
 
 // 5 pixels tall x 3 lines of text + 6 buffer = 20 pixels tall
@@ -18,7 +19,7 @@
 // Define Constants
 
 // in revolutions of the knob
-const float PIXEL_SIZE = 0.072;
+const float PIXEL_SIZE = 0.072 ;
 
 bool isLastMoveRight;
 bool isLastMoveDown;
